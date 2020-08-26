@@ -10,7 +10,7 @@ class AppComponent extends React.Component {
         return (
             <div>
                 Main
-                <Route exact path="/" component={Home} />
+                <Route exact path="/" component={HomePage} />
             </div>
         )
     };

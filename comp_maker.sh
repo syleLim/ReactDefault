@@ -63,7 +63,7 @@ class $1Container extends React.Component {
 
 	render () {
 		return (
-			<AppComponent />
+			<$1Component />
 		)
 	}
 }
