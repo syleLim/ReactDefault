@@ -2,8 +2,8 @@ import React					from "react"
 import { connect }				from "react-redux"
 import { bindActionCreators }	from "redux"
 
-import { Action }		from "../modules"
-import { AppComponent } from "../components"
+import { Action }		from "modules"
+import { AppComponent } from "components"
 
 class AppContainer extends React.Component {
 	

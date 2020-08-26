@@ -6,6 +6,12 @@ module.exports = {
         path: path.join(__dirname, '/dist'),
         filename: 'index_bundle.js'
     },
+    resolve: {
+        modules: [
+            path.join(__dirname, "src"),
+            "node_modules"
+        ]
+    },
     module: {            
         rules: [
             {

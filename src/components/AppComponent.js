@@ -3,7 +3,7 @@ import { Route }			from "react-router-dom"
 import ImmutablePropTypes	from "react-immutable-proptypes"
 import PropTypes 			from "prop-types"
 
-import { Home } from "../pages"
+import { HomePage } from "pages"
 
 class AppComponent extends React.Component {
     render () {
